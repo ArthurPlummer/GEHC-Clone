@@ -1,0 +1,238 @@
+*::after,
+*::before,
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: black;
+    font-weight: 400;
+    height: 100vh;
+}
+.body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1rem 1rem 1fr 1;
+    padding: 0;
+}
+.header-1 {
+    background-color: rgb(199,199,199);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding: 1.5rem 10%;
+}
+.header-1 a {
+    text-decoration: none;
+    color: black;
+}
+.header-1 li {
+    list-style-type: none;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 100px
+}
+.primary>ul, .secondary>ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1.2rem;
+}
+.primary a {
+    text-decoration: none;
+    color: black;
+}
+.heroSection {
+    background-image: url("https://www.gehealthcare.co.uk/-/jssmedia/gehc/us/images/home/banner/18-06-2024/sustainability-hero---1920x760.jpg?h=760&iar=0&w=1920&rev=-1&hash=E68534D9264C09373F82A9EF911BF716");
+    background-size: cover;   
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%; 
+    height: 50vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    object-fit: cover;
+}
+.reportCard {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 450px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    line-height: 3rem;
+    font-size: 1.5rem;
+    width: 75%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: space-evenly;
+}
+.reportCard button {
+    text-align: left;
+    color: rgb(150,0,250);
+    background-color: white;
+    border: none;
+    font-size: 1.5rem;
+}
+.btn-spacing {
+    padding-left: 1.2rem;
+    height: 20px;
+}
+.container {
+    display: grid; 
+    grid-template-columns: repeat(4,1fr);
+    width: 80%;
+    margin: 50px auto;
+    gap: 15px;
+}
+.card {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    line-height: 3rem;
+    text-align: left;
+}
+#card-1 {
+    border-bottom: rgb(250, 92, 0.7) 5px solid;
+}
+#card-2 {
+    border-bottom: 5px solid rgba(0,0,0,0.7);
+}
+#card-3 {
+    border-bottom: 5px solid rgb(0,125,0,0.7);
+}
+#card-4 {
+    border-bottom: 5px solid rgb(0,0,125,0.7);
+}
+.title {
+    font-size: 5.5rem;
+    line-height: 6rem;
+    font-weight: normal;
+}
+.topics {
+    text-align: center;
+    background-color: rgb(243,243,243);
+    padding-top: 100px;
+}
+.btnTopics {
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 56px;
+    margin-top: 3rem;
+    margin-bottom: 3em;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.purpleCircle {
+    display: inline-block;
+    border: rgb(125,0,125) 2px solid;
+    padding: 1rem;
+    border-radius: 100em;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+.choice {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.news-section {
+    padding-top: 100px;
+    background-color: rgb(243,243,243)
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.news {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.news img {
+    width: 100px;
+    height: 100px;
+}
+.date {
+    color: rgb(150,150,150);
+    padding-bottom: 100px;
+}
+.news-section a {
+    text-decoration: none;
+    color: rgb(150,0,250);
+}
+#contact-form {
+    padding: 130px;
+    font-weight: normal;
+    font-size: 2rem;
+}
+.contact {
+    background-color: rgb(72, 11, 112);
+    color: white;
+    padding: 10px;
+    width: 8rem;
+    border-radius: 10px;
+}
+footer{
+    padding-left: 100px;
+    font-size: 1rem;
+    padding-top: 100px;
+}
+.footer-add {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.footer-add li {
+    list-style-type: none;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+.juridiction {
+    padding-top: 100px;
+}
+.socials{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.socials li {
+    list-style-type: none;
+}
+.socials img, .siteLocation img {
+    display: inline;
+    width: 50px;
+    height: 30px;
+}
+.siteLocation {
+   display: flex;
+}
+.flexbox {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40%;
+     padding-top: 100px;
+    
+}
